@@ -4,7 +4,7 @@ services:
     name: telegram-chatgpt-bot
     runtime: python
     buildCommand: "pip install -r requirements.txt"
-    startCommand: "python sear.py"
+    startCommand: "python3 sear.py"
     envVars:
       - key: TELEGRAM_TOKEN
         value: your_telegram_token_here
